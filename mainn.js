@@ -33,35 +33,23 @@ function gotResults(error,results)
         img2 = document.getElementById('alien3');
         img3 = document.getElementById('alien4');
 
-        if (results[0].label == "Clap")
+        if (results[0].label == "Bark")
         {
-            img.src = 'aliens-01.gif';
-            img1.src = 'aliens-02.png';
-            img2.src = 'aliens-03.png';
-            img3.src = 'aliens-04.png';
+            img src = "doggo.png";
         }
-        else if (results[0].label == "Bell")
+        else if (results[0].label == "Meow")
         {
-            img.src = 'aliens-01.png';
-            img1.src = 'aliens-02.gif';
-            img2.src = 'aliens-03.png';
-            img3.src = 'aliens-04.png';  
+           img src = "cat.png"
         }
-        else if (results[0].label == "Bell")
+        else if (results[0].label == "Moo")
         {
-            img.src = 'aliens-01.png';
-            img1.src = 'aliens-02.png';
-            img2.src = 'aliens-03.gif';
-            img3.src = 'aliens-04.png';
+           img src = "cow.png"
         }
-        else
-        {
-            img.src = 'aliens-01.png';
-            img1.src = 'aliens-02.png';
-            img2.src = 'aliens-03.png';
-            img3.src = 'aliens-04.gif';
-        }
-
+       
 
     }
+
+    
 }
+
+//i dont know what im doing lol
